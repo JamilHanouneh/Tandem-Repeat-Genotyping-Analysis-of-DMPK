@@ -1,14 +1,6 @@
 # Tandem-Repeat-Genotyping-Analysis-of-DMPK
 Nextflow pipeline for automated genotyping of tandem repeat expansions from PacBio HiFi data using TRGT, targeting 20 pathogenic loci. Includes Python/R tools for parsing, QC, and visualization of DMPK repeats and motif interruptions, aiding clinical research on repeat expansion disorders.
 
-
-## 1. README.md
-
-```markdown
-# TRGT Tandem Repeat Genotyping Pipeline
-
-A comprehensive Nextflow pipeline for automated genotyping of pathogenic tandem repeat expansions from PacBio HiFi sequencing data using TRGT (Tandem Repeat Genotyping Tool), with specialized analysis tools for DMPK repeat expansions associated with Myotonic Dystrophy Type 1.
-
 [![Nextflow](https://img.shields.io/badge/nextflow-%E2%89%A520.04.0-brightgreen.svg)](https://www.nextflow.io/)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-4.0%2B-276DC3.svg)](https://www.r-project.org/)
