@@ -217,15 +217,7 @@ trgt-nextflow-pipeline/
 ├── parse_trgt_vcfs_for_dmpk_repeats.py    # Python DMPK analysis
 ├── parse_trgt_vcfs_for_dmpk_repeats.R     # R DMPK analysis
 ├── DMPK_QC_Analysis.R                     # R quality control script
-│
-├── environment.yml                        # Conda environment
-├── requirements.txt                       # Python dependencies
-├── README.md                              # This file
-├── LICENSE                                # MIT License
-├── CONTRIBUTING.md                        # Contribution guidelines
-├── CODE_OF_CONDUCT.md                     # Code of conduct
-├── CITATION.cff                           # Citation metadata
-└── CHANGELOG.md                           # Version history
+
 ```
 
 ---
@@ -534,21 +526,6 @@ process {
 
 ---
 
-## Testing
-
-### Run Pipeline Tests
-
-```
-cd NextFlow
-nextflow run trgt_workflow.nf -profile test
-```
-
-### Verify Analysis Scripts
-
-```
-```
-
----
 
 ## Contributing
 
